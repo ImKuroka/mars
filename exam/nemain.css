@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+.text1 {
+  display: flex;
+}
+
+.container {
+  width: 720px;
+  height: 899.82px;
+}
+
+.box {
+  flex-direction: row;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Mars {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1rm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 100px 300px 0px;
+}
+
+.f2rm {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.a {
+  display: flex;
+}
+
+.radio {
+  display: flex;
+  width: 235px;
+  margin: 20px 0px 0px 0px;
+}
+
+.aaa {
+  justify-content: space-between;
+}
+
+.Name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--700, #4a5568);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 350px;
+  height: 50px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+}
+
+.a {
+  display: flex;
+  width: 235px;
+  margin: 20px 0px 0px 0px;
+}
+
+.btn {
+  width: 347px;
+  height: 50px;
+  background: #04C35C;
+  border: none;
+}
+.btn2 {
+    width: 347px;
+    height: 50px;
+    background: var(--800, #2D3748);
+    border-radius: 5px;
+}

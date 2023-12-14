@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 57px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+  padding-bottom: 140px;
+}
+
+.header-text {
+  max-width: 540px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.btn {
+  background: #34547a;
+  width: 225px;
+  height: 65px;
+}
+
+.obo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.obo2 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.obo2 p {
+  width: 50%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-right img {
+  max-width: 550px;
+}
+
+.line {
+  width: 300px;
+  background-color: grey;
+  height: 4px;
+  margin-bottom: 50px;
+}
+
+.line2 {
+  width: 80%;
+  height: 4px;
+  background-color: blue;
+}
+
+.overflow {
+  position: absolute;
+  display: none;
+  top: 0;
+  background-color: rgba(255, 99, 71, 0.45);
+}
+
+.gallery-img:hover .overflow {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-img {
+  width: 400px;
+  position: relative;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt {
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but {
+  border: none;
+  background-color: rgb(246, 244, 244);
+  width: 255px;
+  height: 50px;
+}
+
+.but3 {
+  border: none;
+  background-color: rgb(246, 244, 244);
+  width: 614px;
+  height: 175px;
+}
+
+.but2 {
+  border: none;
+  background: var(--Accent, #34547a);
+  width: 255px;
+  height: 50px;
+}
+
+.foot {
+  background: var(--Accent, #34547a);
+  width: 100%;
+  height: 100px;
+}
+
+.b1n {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+.b2n {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 537px 10px 537px;
+}

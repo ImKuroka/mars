@@ -1,0 +1,55 @@
+.ramka {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid;
+}
+
+.shashka {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+
+.shashka2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.shashka3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.row {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.black {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.row1 {
+    position: relative;
+
+    display: flex;
+    justify-content: space-evenly;
+}
